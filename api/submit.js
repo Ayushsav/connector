@@ -4,7 +4,8 @@ import axios from 'axios';
 import querystring from 'querystring';
 import url from 'url';
 import multer from 'multer';
-import nextConnect from 'next-connect';
+import * as nextConnect from 'next-connect';
+
 
 const consumerKey = '2ff01625ff243c109e765d787c9ac0ca9c509d71302bc9888b930c4047b3ff02';
 const consumerSecret = '06f6c64fb90b12cca30c7bc3fb71fdca978fa31cb3e135329610a9a2f4ac00e8';
